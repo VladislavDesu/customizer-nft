@@ -1,14 +1,17 @@
 {
   "name": "customizer-nft",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "customizer nft",
   "keywords": [
     "customizer",
     "nft",
     "moralis",
-    "metamask"
+    "metamask",
+    "ethereum",
+    "typescript"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
