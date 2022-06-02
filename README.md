@@ -1,4 +1,4 @@
-# customizer-nft v1.1.3
+# customizer-nft v1.1.4
 
 The Customizer NFT is a library for get all NFTs from Moralis API
 
@@ -8,13 +8,15 @@ Using npm:
   $ npm i customizer-nft
  ```
 
-Install types declarations:
+Install [types declarations](https://www.npmjs.com/package/types-customizer-nft)
 ```bash
   $ npm i types-customizer-nft
  ```
 
 ## Code Example
 ```javascript
+    import {useCustomizerNFT} from "customizer-nft";
+
     const [NFTs, setNFTs] = useState();
 
     const {getAllNFTs} = useCustomizerNFT(
