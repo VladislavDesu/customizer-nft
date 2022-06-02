@@ -1,0 +1,22 @@
+{
+  "name": "customizer-nft",
+  "version": "1.0.0",
+  "description": "customizer nft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavDesu/customizer-nft.git"
+  },
+  "author": "Vladislav Gryadko <vgryadko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavDesu/customizer-nft/issues"
+  },
+  "homepage": "https://github.com/VladislavDesu/customizer-nft#readme",
+  "dependencies": {
+    "moralis": "^1.8.0"
+  }
+}
