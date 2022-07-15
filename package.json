@@ -1,0 +1,31 @@
+{
+  "name": "customizer-nft",
+  "version": "2.0.2",
+  "description": "customizer nft",
+  "keywords": [
+    "customizer",
+    "nft",
+    "opensea api",
+    "metamask",
+    "ethereum",
+    "typescript"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavDesu/customizer-nft.git"
+  },
+  "author": "Vladislav Gryadko <vgryadko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavDesu/customizer-nft/issues"
+  },
+  "homepage": "https://github.com/VladislavDesu/customizer-nft#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
