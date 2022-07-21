@@ -1,4 +1,4 @@
-# customizer-nft v2.0.3
+# customizer-nft v2.1.0
 
 The Customizer NFT is a library for get all NFTs
 
@@ -116,6 +116,7 @@ useEffect(() => {
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `address` | `string` | **Required**. user address from metamask |
+| `net` | `mainnet testnet` | **Not Required**. Default state is mainnet, looking for all nfts in mainnet. Second state is testnet looking for nfts in testnet |
 | `formatsFilter` | `string[]` | **Not Required**. Default is []. Filter with image format. Example ['.png', '.svg', '.jpg'] |
 | `limit` | `number` | **Not Required**. Default is 200 and this max value. Get 200 nfts from account for 1 request. If user has more than limit, make requests after not get all nfts from account |
 
